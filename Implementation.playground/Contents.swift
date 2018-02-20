@@ -23,3 +23,18 @@ numbers.append( random(between: 1, and: 50) )
 
 // Add another random number to the end of the array
 numbers.append( random(between: 1, and: 50) )
+
+//: ### Inserting at a specific position in an aray
+// Add the number 15 between the numbers at index 0 and index 1
+// NOTE: Observe that the prior value at index 1 is pushed forward to index 2
+numbers.insert(15, at: 1)
+
+// Add the number 45 to the start of the array (index 0)
+// NOTE: Observe that all the other values are pushed forward one position
+numbers.insert(45, at: 0)
+
+//: ### Removing a value at a specific position
+// Remove the third element (index 2)
+numbers.remove(at: 2)
+// What is now in the array?
+numbers
