@@ -6,83 +6,14 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		817CE3CD203C557000292475 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817CE3CC203C557000292475 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		817CE3C7203C557000292475 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		817CE3C9203C557000292475 /* SortingAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
-		817CE3CC203C557000292475 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		817CE3C6203C557000292475 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		817CE3C0203C557000292475 = {
 			isa = PBXGroup;
 			children = (
-				817CE3CB203C557000292475 /* SortingAlgorithms */,
-				817CE3CA203C557000292475 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		817CE3CA203C557000292475 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				817CE3C9203C557000292475 /* SortingAlgorithms */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		817CE3CB203C557000292475 /* SortingAlgorithms */ = {
-			isa = PBXGroup;
-			children = (
-				817CE3CC203C557000292475 /* main.swift */,
-			);
-			path = SortingAlgorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		817CE3C8203C557000292475 /* SortingAlgorithms */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 817CE3D0203C557000292475 /* Build configuration list for PBXNativeTarget "SortingAlgorithms" */;
-			buildPhases = (
-				817CE3C5203C557000292475 /* Sources */,
-				817CE3C6203C557000292475 /* Frameworks */,
-				817CE3C7203C557000292475 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SortingAlgorithms;
-			productName = SortingAlgorithms;
-			productReference = 817CE3C9203C557000292475 /* SortingAlgorithms */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		817CE3C1203C557000292475 /* Project object */ = {
@@ -91,12 +22,6 @@
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Russell Gordon";
-				TargetAttributes = {
-					817CE3C8203C557000292475 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 817CE3C4203C557000292475 /* Build configuration list for PBXProject "SortingAlgorithms" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -106,25 +31,13 @@
 				en,
 			);
 			mainGroup = 817CE3C0203C557000292475;
-			productRefGroup = 817CE3CA203C557000292475 /* Products */;
+			productRefGroup = 817CE3C0203C557000292475;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				817CE3C8203C557000292475 /* SortingAlgorithms */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		817CE3C5203C557000292475 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				817CE3CD203C557000292475 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		817CE3CE203C557000292475 /* Debug */ = {
@@ -233,26 +146,6 @@
 			};
 			name = Release;
 		};
-		817CE3D1203C557000292475 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		817CE3D2203C557000292475 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -261,15 +154,6 @@
 			buildConfigurations = (
 				817CE3CE203C557000292475 /* Debug */,
 				817CE3CF203C557000292475 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		817CE3D0203C557000292475 /* Build configuration list for PBXNativeTarget "SortingAlgorithms" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				817CE3D1203C557000292475 /* Debug */,
-				817CE3D2203C557000292475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
