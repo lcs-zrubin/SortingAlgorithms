@@ -38,3 +38,27 @@ numbers.insert(45, at: 0)
 numbers.remove(at: 2)
 // What is now in the array?
 numbers
+
+//: ### Reset an array
+// Make the array an empty list again
+numbers = []
+
+//: ### Use a loop to populate an array
+// Place twenty random values between 1 and 50 in the array
+for _ in 1...20 {
+    numbers.append( random(between: 1, and: 50) )
+}
+// What is now in the array?
+numbers
+
+//: ### Iterate over only the values of an array
+for number in numbers {
+    print(number)
+}
+print("==================")
+
+//: ### Iterate over the indexes and values, moving from start to end
+for i in 0..<numbers.count {
+    print("Index is \(i) and the value is \(numbers[i])")
+}
+
