@@ -112,4 +112,23 @@ numbers
  */
 
 // Begin your implementation below...
+//Creating an empty array
+var unsorted : [Int] = []
+
+
+//Add 20 random numbers to unsorted
+for _ in 1...20 {
+    unsorted.append( random(between: 1, and: 50) )
+}
+
+unsorted
+
+if unsorted[0] > unsorted[1] {
+    let tempValue = unsorted[0]
+    unsorted[0] = unsorted[1]
+    unsorted[1] = tempValue
+    
+}
+
+unsorted
 
