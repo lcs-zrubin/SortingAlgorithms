@@ -123,12 +123,28 @@ for _ in 1...20 {
 
 unsorted
 
-if unsorted[0] > unsorted[1] {
-    let tempValue = unsorted[0]
-    unsorted[0] = unsorted[1]
-    unsorted[1] = tempValue
+
+var i = 0
+var tempValue = 0
+while i < unsorted.count-1
+{
+    if unsorted[i + 1] > unsorted[i]
+    {
+        tempValue = unsorted[i]
+        unsorted[i] = unsorted[i+1]
+        unsorted[i+1] = tempValue
+        tempValue = i
+    }
+    
     
 }
 
-unsorted
+//while unsorted[i+1] < unsorted[i]  {
+    
+    
+//}
+
+
+print(unsorted)
+
 
